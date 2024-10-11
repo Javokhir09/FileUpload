@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui;
+  color: #fff;
+}
+
+body {
+  background-color: #202020;
+}
+
+input::file-selector-button {
+  font-weight: bold;
+  background-color: dodgerblue;
+  padding: 0.5em;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+}
+
+input[type=submit] {
+  font-weight: bold;
+  background-color: dodgerblue;
+  padding: 0.5em;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.con {
+  width: 100%;
+  height: 100svh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  form {
+    margin-top: 20px;
+  }
+}
